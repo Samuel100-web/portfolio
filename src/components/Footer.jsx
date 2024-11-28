@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter,FaInstagram,FaLinkedin} from 'react-icons/fa6';
+import { FaFacebook, FaTwitter,FaInstagram,FaLinkedin,FaWhatsapp} from 'react-icons/fa6';
 
 function Footer() {
   return <>
@@ -12,7 +12,12 @@ function Footer() {
                         <FaFacebook size={24}/>
                         <FaTwitter size={24}/>
                         <FaInstagram size={24}/>
-                        <FaLinkedin size={24}/>
+                        <a href="https://www.linkedin.com/feed/" target="_blank">
+                        < FaLinkedin className="text-2xl cursor-pointer" />
+                        </a>
+                        <a href="https://wa.me/+923075941955?text=Hello%20There" target="_blank">
+                        < FaWhatsapp className="text-2xl cursor-pointer" />
+                        </a>
                     </div>
                     <div className='mt-8 border-t border-gray-700 pt-8 flex flex-col items-center'>
                         <p className='text-sm'>

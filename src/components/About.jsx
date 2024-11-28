@@ -37,7 +37,7 @@ function About(){
         </span>
         <br />
         <span className="px-8">
-            Intermated, Alama Iqbal Open Univeristy Islamabad, Continue in my Last Semester
+            Intermediate, Alama Iqbal Open Univeristy Islamabad, Continue in my Last Semester
         </span>
         <br />
         <span className="px-8">

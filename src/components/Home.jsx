@@ -1,7 +1,7 @@
 import React from "react";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
+
 import { FaTelegram } from "react-icons/fa6";
 import { FaReact } from "react-icons/fa";
 import { SiDotnet } from "react-icons/si";
@@ -50,7 +50,7 @@ function Home(){
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/" target="_blank">
+                                <a href="https://www.linkedin.com/feed/" target="_blank">
                                 < FaLinkedin className="text-2xl cursor-pointer" />
                                 </a>
                             </li>
@@ -64,7 +64,7 @@ function Home(){
                                 </a>
                             </li>
                             <li>
-                                <a href="03075941955" target="_blank">
+                                <a href="https://wa.me/+923075941955?text=Hello%20There" target="_blank">
                                 < FaWhatsapp className="text-2xl cursor-pointer" />
                                 </a>
                             </li>
